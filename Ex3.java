@@ -142,10 +142,10 @@ public class Ex3 {
 //        another for loop to print the days (Days 1 -7) for each week.
 
 
-          for(int w = 1; w <= 4; w++){   //Outer loop, tp display the weeks
+          for(int w = 1; w <= 4; w++){   //Outer loop, to display the weeks
               System.out.println("Week " + w);
 
-              for(int d = 1; d <= 7; d++){    //Inner loop, tp display the days
+              for(int d = 1; d <= 7; d++){    //Inner loop, to display the days
                   System.out.println("Day" + d);
                   if(d==7){
                       System.out.println("");
