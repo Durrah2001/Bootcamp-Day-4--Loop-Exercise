@@ -183,8 +183,9 @@ public class Ex3 {
         if(number <= 1)
             return false;  // Meaning that number is not a prime number, it must be larger than 1
 
-        if(number % 2 == 0)
-            return false;   // Meaning that, the prime number accept dividing by itself only
+       for(int i = 2; i <= number; i++)
+           if(number % i == 0)
+            return false;   
 
         return true;
 
